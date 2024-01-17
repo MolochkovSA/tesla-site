@@ -11,11 +11,9 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .header {
-  border: 1px solid red;
 }
 
 nav {
@@ -23,7 +21,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 24px 60px 58px 43px;
-  border: 1px solid red;
 }
 
 .menu_1,
@@ -32,7 +29,6 @@ nav {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  border: 1px solid red;
 }
 
 .menu_2 .menu__item {
@@ -53,7 +49,6 @@ nav {
 
 .menu__item:hover,
 .menu__item.active {
-  border-bottom: 2px solid #e51937;
   color: #e51937;
 }
 
@@ -78,6 +73,7 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
   height: 467px;
+  margin-bottom: 153px;
 }
 
 .tesla__title h1,
@@ -98,4 +94,92 @@ nav {
   font-size: 15px;
   font-weight: 500;
   line-height: 9px;
+}
+.tesla__logo {
+  max-width: 968px;
+  position: absolute;
+  top: 278px;
+  margin-left: 199px;
+}
+
+.tesla__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.info__block {
+  display: flex;
+  align-items: center;
+  margin-right: 81px;
+}
+
+.info__block-img-speed {
+  width: 46px;
+  margin-right: 14px;
+}
+
+.info__block-img-road {
+  height: 50px;
+  width: 31px;
+  margin-right: 11px;
+  margin-top: 10px;
+}
+
+.info__block-text1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+}
+
+.info__block-text1 span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.info__block-text2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.test__drive {
+  min-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  text-transform: uppercase;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-right: 40px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.test__drive img {
+  margin-right: 7px;
+}
+.otder {
+  width: 160px;
+  height: 40px;
+  color: #e51937;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  border: 2px solid #e51937;
+  cursor: pointer;
+}
+
+.go__bottom {
+  text-align: center;
+  display: block;
 }
