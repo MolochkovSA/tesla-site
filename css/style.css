@@ -1,4 +1,8 @@
-.body {
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -7,4 +11,91 @@
 .container {
   width: 1440px;
   margin: 0 auto;
+  border: 1px solid red;
+}
+
+.header {
+  border: 1px solid red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 60px 58px 43px;
+  border: 1px solid red;
+}
+
+.menu_1,
+.menu_2 {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 1px solid red;
+}
+
+.menu_2 .menu__item {
+  margin-right: 30px;
+}
+
+.menu__item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.menu__item:hover,
+.menu__item.active {
+  border-bottom: 2px solid #e51937;
+  color: #e51937;
+}
+
+.item1 {
+  margin-right: 63px;
+}
+.item2 {
+  margin-right: 25px;
+}
+.item3 {
+  margin-right: 44px;
+}
+.item4 {
+  margin-right: 46px;
+}
+.item5 {
+}
+
+.tesla__title {
+  text-align: center;
+  background-image: url(../img/Tesla-Wordmark-Red.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 467px;
+}
+
+.tesla__title h1,
+.tesla__title p {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-style: normal;
+}
+
+.tesla__title h1 {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 110px;
+}
+
+.tesla__title p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 9px;
 }
