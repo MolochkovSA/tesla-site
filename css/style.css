@@ -8,12 +8,19 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1440px;
   margin: 0 auto;
-}
-
-.header {
 }
 
 nav {
@@ -63,8 +70,6 @@ nav {
 }
 .item4 {
   margin-right: 46px;
-}
-.item5 {
 }
 
 .tesla__title {
@@ -166,7 +171,7 @@ nav {
 .test__drive img {
   margin-right: 7px;
 }
-.otder {
+.order {
   width: 160px;
   height: 40px;
   color: #e51937;
@@ -182,4 +187,113 @@ nav {
 .go__bottom {
   text-align: center;
   display: block;
+}
+
+/* Main */
+.main {
+  margin-top: 37px;
+
+  color: #fff;
+}
+.main__inner {
+  height: 900px;
+  border-top: 1px solid #e51937;
+  background-image: url(../img/2013-tesla-model-s-cockpit.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.left-section h2 {
+  margin-left: 80px;
+  margin-top: 64px;
+  color: #e51937;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+}
+.right-section {
+  width: 440px;
+  background: #e51937;
+  padding: 51px 44px 63px 52px;
+}
+.main-top {
+}
+
+.main-top h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.main-top p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 11px 0px 54px 0px;
+}
+
+.features__box {
+}
+.features {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.features__img {
+  align-self: center;
+  margin-right: 19px;
+}
+.features__text-box {
+}
+.features__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.features__accent {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+}
+.features__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.main-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.information {
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+}
+.information__icon {
+  border: 2px solid #fff;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  text-align: center;
+  margin-right: 10px;
+}
+.information__text {
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.information__text a {
+  text-decoration: none;
+  color: #fff;
+}
+.inverse__button {
+  color: #fff;
+  border-color: #fff;
 }
